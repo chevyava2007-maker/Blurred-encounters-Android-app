@@ -1,0 +1,7 @@
+{
+  "name": "Blurred Encounters",
+  "description": "18+ anonymous dating and social app with alias-only profiles, mandatory face blur, mood tags, 69-minute sessions, lounge rooms, and safety controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
