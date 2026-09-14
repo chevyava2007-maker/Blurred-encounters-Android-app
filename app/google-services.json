@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "776660231720",
+    "project_id": "blurredencounters-dd5ac",
+    "storage_bucket": "blurredencounters-dd5ac.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776660231720:android:b61ab44c23863f00f2f71d",
+        "android_client_info": {
+          "package_name": "com.aistudio.blurredencounters.pqvzkn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRFnIa9GwVRsaiUlVpeR2PhU4tAf48Xws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
