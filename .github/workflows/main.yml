@@ -22,7 +22,13 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-
+      - name: Generate Debug Keystore
+        run: |
+          keytool -genkey -v -keystore debug.keystore \
+            -keyalg RSA -keysize 2048 -validity 10000 \
+            -alias androiddebugkey \
+            -storepass android -keypass android \
+            -dname "CN=Android Debug,O=Android,C=US"
       - name: Install Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
